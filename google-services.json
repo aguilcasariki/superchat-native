@@ -7,18 +7,18 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:468302392063:android:9c89ba6c961b619583faca",
+        "mobilesdk_app_id": "1:468302392063:android:a86b8267ba375af483faca",
         "android_client_info": {
           "package_name": "com.riki1.superchatnative"
         }
       },
       "oauth_client": [
         {
-          "client_id": "468302392063-8rov53cqeteot9e6ao0ujt96bl5d0s0g.apps.googleusercontent.com",
+          "client_id": "468302392063-1ie0hra34msvrodomo7mpeag1ft96ubc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.superchatnative",
-            "certificate_hash": "91db419128f174432584571d251e812cc99e0486"
+            "package_name": "com.riki1.superchatnative",
+            "certificate_hash": "b3594e61478244eb9b0ee6bffac4e778fa972a56"
           }
         },
         {
