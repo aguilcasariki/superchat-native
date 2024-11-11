@@ -139,6 +139,8 @@ const SignIn = () => {
   GoogleSignin.configure({
     webClientId:
       "468302392063-i1p31mlaijng1etoht94epcmq3mph2pn.apps.googleusercontent.com",
+    offlineAccess: true,
+    forceCodeForRefreshToken: true,
   });
   async function onGoogleButtonPress() {
     // Check if your device supports Google Play
@@ -147,7 +149,6 @@ const SignIn = () => {
     });
     // Get the users ID token
     const signInResult = await GoogleSignin.signIn();
-    console.log("signInResult", signInResult);
 
     // Try the new style of google-sign in result, from v13+ of that module
     idToken = signInResult.data?.idToken;
@@ -158,7 +159,6 @@ const SignIn = () => {
     if (!idToken) {
       throw new Error("No ID token found");
     }
-    console.log("token", idToken);
     // Create a Google credential with the token
     const googleCredential = auth.GoogleAuthProvider.credential(
       signInResult.data?.idToken || ""
