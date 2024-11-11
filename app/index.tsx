@@ -137,8 +137,7 @@ const ChatMessage = ({ message }) => {
 
 const SignIn = () => {
   GoogleSignin.configure({
-    webClientId:
-      "468302392063-i1p31mlaijng1etoht94epcmq3mph2pn.apps.googleusercontent.com",
+    webClientId: process.env.EXPO_PUBLIC_WEB_CLIENT_ID,
     offlineAccess: true,
     forceCodeForRefreshToken: true,
   });
