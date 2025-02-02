@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "468302392063",
+    "project_id": "superchat-native",
+    "storage_bucket": "superchat-native.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468302392063:android:a86b8267ba375af483faca",
+        "android_client_info": {
+          "package_name": "com.riki1.superchatnative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468302392063-1ie0hra34msvrodomo7mpeag1ft96ubc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.riki1.superchatnative",
+            "certificate_hash": "b3594e61478244eb9b0ee6bffac4e778fa972a56"
+          }
+        },
+        {
+          "client_id": "468302392063-i1p31mlaijng1etoht94epcmq3mph2pn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADnYaouzTtMQiM7KHoTC2VCOXSZNsYEh0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468302392063-i1p31mlaijng1etoht94epcmq3mph2pn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

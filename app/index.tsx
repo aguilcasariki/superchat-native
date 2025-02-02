@@ -65,13 +65,17 @@ const ChatRoom = () => {
     const unsubscribe = messageRef
       .orderBy("createdAt")
       .limit(25)
-      .onSnapshot((snapshot) => {
-        const fetchedMessages = snapshot.docs.map((doc) => ({
-          id: doc.id,
-          ...doc.data(),
-        }));
-        setMessages(fetchedMessages);
-      });
+      .onSnapshot(
+        (snapshot) => {
+          console.log("snapshot", snapshot);
+          const fetchedMessages = snapshot.docs.map((doc) => ({
+            id: doc.id,
+            ...doc.data(),
+          }));
+          setMessages(fetchedMessages);
+        },
+        (error) => console.log("error", error)
+      );
 
     return () => unsubscribe();
   }, []);

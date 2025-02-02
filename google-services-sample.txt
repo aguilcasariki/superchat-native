@@ -1,0 +1,7 @@
+
+ You can find the file in the root of your project directory.
+
+ https://console.firebase.google.com/u/0/project/<project-name>/settings/general/<android-project-id>
+
+ Replace <project-name> with the name of your project and <android-project-id> with the project ID of your Android app.
+

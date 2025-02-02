@@ -2,21 +2,20 @@
   "cli": {
     "version": ">= 8.0.0"
   },
-
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "GOOGLE_SERVICES_JSON": "@GOOGLE_SERVICES_JSON"
+      }
     },
-
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "env": {
+        "GOOGLE_SERVICES_JSON": "@GOOGLE_SERVICES_JSON"
+      }
     },
-
-    "production": {}
-  },
-
-  "submit": {
     "production": {}
   }
 }
